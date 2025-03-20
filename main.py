@@ -76,5 +76,5 @@ def update(frame):
 
     return ax.patches
 
-ani = animation.FuncAnimation(fig, update, frames=len(edge_data), interval=20, repeat=False)
+ani = animation.FuncAnimation(fig, update, frames=len(edge_data), interval=100, repeat=False)
 plt.show()
